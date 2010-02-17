@@ -1,0 +1,17 @@
+dn: ou=backend1
+objectClass: top
+objectClass: organizationalUnit
+ou: backend1
+
+dn: ou=people,ou=backend1
+objectClass: top
+objectClass: organizationalUnit
+ou: people
+
+dn: cn=user1,ou=people,ou=backend1
+objectClass: inetOrgPerson
+cn: user1
+givenName: user1
+sn: Somebodyson
+mail: user1@example.com
+
